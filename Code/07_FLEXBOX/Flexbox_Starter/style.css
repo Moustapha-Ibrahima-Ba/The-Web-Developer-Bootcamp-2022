@@ -28,12 +28,16 @@ main {
     margin: 0 auto;
     border: 5px solid black;
     height: 500px;
+    display: flex;
 }
 
 main .sidebar {
     background-color: #6930c3;
+    flex: 1 2 300px;
+    border: 1px solid white;
 }
 
 main .maincontent {
     background-color: #80ffdb;
+    flex: 2 1 800px;
 }
