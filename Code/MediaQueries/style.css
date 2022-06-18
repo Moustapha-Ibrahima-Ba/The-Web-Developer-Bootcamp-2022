@@ -4,15 +4,45 @@ body {
 
 nav {
     font-size: 1.5em;
+    display: flex;
+}
+
+#home, #signup {
+    flex: 2 1 25%;
+}
+#home {
+    text-align: center;
+}
+
+ul {
+    flex: 0 1 35%;
+    text-align: center;
+    margin-left: 5px;
+}
+#signup {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 ul,li {
     display: inline;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 h1 {
     font-size: 6em;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 4em;
+    }
 }
