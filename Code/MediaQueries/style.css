@@ -1,48 +1,41 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
 }
 
 nav {
-    font-size: 1.5em;
+    display: flex;
+    font-size: 0.5em;
+}
+
+#home,#signup, ul, li {
     display: flex;
 }
 
 #home, #signup {
-    flex: 2 1 25%;
-}
-#home {
-    text-align: center;
+    flex: 1 1 25%;
 }
 
-ul {
-    flex: 0 1 35%;
-    text-align: center;
-    margin-left: 5px;
+#home {
+    justify-content: center;
 }
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    flex: 0.5 0.5 15%;
+    justify-content: space-evenly;
+}
+
 #signup {
-    display: flex;
     justify-content: center;
 }
 
 a {
     text-decoration: none;
-}
-
-ul,li {
-    display: inline;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-evenly;
+    color: black;
 }
 
 h1 {
-    font-size: 6em;
+    font-size: 2em;
     text-align: center;
-}
-
-@media (max-width: 768px) {
-    h1 {
-        font-size: 4em;
-    }
 }
