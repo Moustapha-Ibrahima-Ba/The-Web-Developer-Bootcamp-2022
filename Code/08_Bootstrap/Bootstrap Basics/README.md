@@ -1,1 +1,3 @@
-Basics of Bootstrap
+# Basics of Bootstrap
+
+I learn how to make different bottoms, change their color...
